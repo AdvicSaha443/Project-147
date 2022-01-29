@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+
+        <a-camera position="0 0 0" rotation="0 90 0"></a-camera>
+
+        <a-scene background="color: #ffffff">
+
+            
+            <!--FLOOR-->
+
+                <a-entity gltf-model="url(floor.glb)" position="0 -10 0" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 -10 0" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 -10 0" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 -10 0" scale="5 5 5"></a-entity>
+
+                <a-entity gltf-model="url(floor.glb)" position="0 -10 20" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 -10 20" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 -10 20" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 -10 20" scale="5 5 5"></a-entity>
+
+                <a-entity gltf-model="url(floor.glb)" position="0 -10 40" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 -10 40" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 -10 40" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 -10 40" scale="5 5 5"></a-entity>
+
+                <a-entity gltf-model="url(floor.glb)" position="0 -10 60" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 -10 60" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 -10 60" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 -10 60" scale="5 5 5"></a-entity>
+
+            <!--WALLS-->
+
+                <a-entity gltf-model="url(wall.glb)" position="49 -8 0" scale="5 5 5" rotation="0 90 0"></a-entity>
+                <a-entity gltf-model="url(wall.glb)" position="49 -8 20" scale="5 5 5" rotation="0 90 0"></a-entity>
+                <a-entity gltf-model="url(wall.glb)" position="49 -8 40" scale="5 5 5" rotation="0 90 0"></a-entity>
+                <a-entity gltf-model="url(curvedwall.glb)" position="49 -8 62.5" scale="5 5 5" rotation="0 -90 0"></a-entity>
+
+                <a-entity gltf-model="url(wall.glb)" position="26.5 -8 62.5" scale="5 5 5" rotation="0 0 0"></a-entity>
+                <a-entity gltf-model="url(wall.glb)" position="6.5 -8 62.5" scale="5 5 5" rotation="0 0 0"></a-entity>
+                <a-entity gltf-model="url(curvedwall.glb)" position="-15.8 -8 62.5" scale="5 5 5" rotation="0 180 0"></a-entity>
+
+                <a-entity gltf-model="url(wall.glb)" position="-15.8 -8 40" scale="5 5 5" rotation="0 90 0"></a-entity>
+                <a-entity gltf-model="url(wall.glb)" position="-15.8 -8 20" scale="5 5 5" rotation="0 90 0"></a-entity>
+                <a-entity gltf-model="url(wall.glb)" position="-15.8 -8 0" scale="5 5 5" rotation="0 90 0"></a-entity>
+
+            <!--ROOF-->
+                <a-entity gltf-model="url(floor.glb)" position="0 12 0" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 12 0" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 12 0" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 12 0" scale="5 5 5"></a-entity>
+
+                <a-entity gltf-model="url(floor.glb)" position="0 12 20" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 12 20" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 12 20" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 12 20" scale="5 5 5"></a-entity>
+
+                <a-entity gltf-model="url(floor.glb)" position="0 12 40" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 12 40" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 12 40" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 12 40" scale="5 5 5"></a-entity>
+
+                <a-entity gltf-model="url(floor.glb)" position="0 12 60" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="20 12 60" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="40 12 60" scale="5 5 5"></a-entity>
+                <a-entity gltf-model="url(floor.glb)" position="-20 12 60" scale="5 5 5"></a-entity>
+
+            <!--Fireplace-->
+                <a-entity gltf-model="url(fireplace.glb)" position="17 -7 60" scale="12 12 12" rotation="0 180 0"></a-entity>
+
+            <!--Chair-->
+                <a-entity gltf-model="url(chair.glb)" position="10 -7 55" scale="25 25 25" rotation="0 90 0"></a-entity>
+                <a-entity gltf-model="url(chair.glb)" position="25 -7 55" scale="25 25 25" rotation="0 -90 0"></a-entity>
+
+            <!--Lartern-->
+                <a-entity gltf-model="url(lartern.glb)" position="40 12 0" scale="150 150 150" rotation="0 90 0"></a-entity>
+                <a-entity gltf-model="url(lartern.glb)" position="-5 12 0" scale="150 150 150" rotation="0 90 0"></a-entity>
+          
+        </a-scene>  
+    </body>
+</html>
